@@ -1,0 +1,181 @@
+
+* input {
+    outline: none;
+    border: none;
+}
+* textarea {
+    outline: none;
+    resize:none;
+}
+* input::-ms-clear, *input::-ms-reveal {
+    display: none;
+}
+.commercial-block-top-lhai {
+    position: relative;
+    width: 100%;
+    height: 47.33rem;
+}
+.block-top-img-lhai {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.block-top-img-lhai img {
+    display: block;
+    width: 100%;
+    height: 47.33rem;
+}
+/*商业定位*/
+.location-subhead-lhai {
+    margin-bottom: 0.71rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #b2b2b2;
+    color: #5e4c40;
+    font-size: 1.13rem;
+}
+.location-subhead-eng-lhai {
+    margin-bottom: 1rem;
+    color: #5e4c40;
+    font-size: 0.75rem;
+}
+.business-location-img-lhai {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.33rem;
+}
+.business-location-img-lhai img {
+    display: block;
+    width: 100%;
+    height: 10.33rem;
+}
+.business-location-contentlhai {
+    text-align: justify;
+    font-size: 0.92rem;
+    line-height: 1.5rem;
+}
+
+/*街区美景*/
+.block-beauty-lhai {
+    width: 92.19%;
+    padding: 0 3.91%;
+    padding-top: 2.21rem;
+    border-top: 1px solid #898c95;
+    margin-top: 0.08rem;
+}
+.swiper-container-lhai {
+    position: relative;
+    width: 100%;
+    height: 18.25rem;
+}
+.block-view-lhai {
+    display: block;
+    width: 100%;
+}
+.block-view-lhai img {
+    display: block;
+    width: 100%;
+    height: 12.46rem;
+}
+.block-enjoy-lhai {
+    width: 100%;
+    position: absolute;
+    top: 13.54rem;
+    color: #2c2d30;
+    font-size: 0.92rem;
+    text-align: center;
+}
+.specil-pagination-lhai span {
+    display: inline-block;
+    width: 1.08rem;
+    height: 1.08rem;
+    background: #e9e0cd;
+}
+/*招商合作*/
+.cooperation-lhai {
+    width: 92.19%;
+    height: 40rem;
+    padding: 0 3.91%;
+    margin-top: 2.21rem;
+}
+.cooperation-lhai form {
+    width: 100%;
+}
+.name-lhai, .phone-lhai {
+    float: left;
+    width: 50%;
+}
+.phone-lhai {
+    float: right;
+}
+.name-lhai p, .phone-lhai p {
+    float: left;
+    width: 31.53%;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.58rem;
+    font-size: 0.92rem;
+}
+.name-lhai input, .phone-lhai input {
+    width: 60%;
+    height: 1.58rem;
+    margin-left: 4.07%;
+    margin-bottom: 0;
+    border: 1px solid #bebfc2;
+}
+.email-lhai {
+    float: left;
+    width: 100%;
+    margin-top: 0.96rem;
+}
+.email-lhai p {
+    float: left;
+    width: 17%;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.58rem;
+    font-size: 0.92rem;
+}
+.email-lhai input {
+    float: left;
+    width: 80%;
+    height: 1.58rem;
+    padding-left: 1%;
+    border: 1px solid #bebfc2;
+}
+.message-lhai {
+    float: left;
+    width: 100%;
+    margin-top: 0.96rem;
+    font-size: 1.5rem;
+}
+.message-lhai p {
+    float: left;
+    width: 17%;
+    margin-top: 0;
+    font-size: 0.92rem;
+}
+.message-lhai textarea {
+    overflow: hidden;
+    float: left;
+    width: 80%;
+    height: 8.54rem;
+    padding:2px;
+    border: 1px solid #bebfc2;
+}
+.submit-lhai {
+    float: left;
+    width: 19.06%;
+    height: 1.83rem;
+    margin-top: 1.42rem;
+    margin-left: 17%;
+    background: #3e5287;
+    text-align: center;
+    line-height: 1.83rem;
+    color: #d8dce7;
+    overflow: hidden;
+}
+.jianyi {
+    margin-top: 1.04rem;
+}

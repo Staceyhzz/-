@@ -1,0 +1,807 @@
+/*首页*/
+@font-face {
+    font-family: 'fangzheng';
+    src: url('../src/fangzheng.ttf');
+}
+.z-wrap {
+	width: 100%;
+} 
+.z-mile-center {
+	position: relative;
+	color: #5e4c40;
+}
+.z-mile-center h1 {
+	position: absolute;
+	font-size: 2rem;
+	font-family: "fangzheng";
+	color: #5e4c40;
+	top: 26%;
+	left: 9%;
+}
+.z-mile-center em {
+	position: absolute;
+	top: 33%;
+	left: 9%;
+	font-size: 0.92rem;
+	line-height: 1.5rem;
+}
+.z-main-title {
+	position: relative;
+	width: 100%;
+	height: 15.8333rem;
+}
+.z-main-title h1 {
+	position: absolute;
+	width: 40%;
+	right: 9%;
+	top:5rem;
+	color: #fff;
+	font-size: 1rem;
+	font-family: "fangzheng";
+	padding-bottom: 0.25rem;
+	border-bottom: 2px solid #fff;
+}
+.z-main-title h2 {
+	position: absolute;
+	width: 40%;
+	right: 9%;
+	top:6.74rem;
+	color: #fff;
+	font-size: 1.28rem;
+	text-align: right;
+	font-family: "fangzheng";
+	padding-top: 0.54rem;
+	border-top: 1px solid #fff;
+}
+.z-main-title em {
+	position: absolute;
+	right: 9%;
+	top:8.83rem;
+	color: #fff;
+	font-size: 0.75rem;
+	font-family: "Sim Sun";
+	opacity: 0.7;
+}
+.z-main-title img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.z-main-contant {
+	width: 94%;
+	margin: 1.04rem auto 0;
+	padding-bottom: 0.83rem;
+}
+.z-main-contant a {
+	float: left;
+	width: 48.3333%;
+	margin-bottom: 1.25rem;
+}
+.z-main-contant a:nth-child(2n) {
+	margin-left: calc(100% - 48.3333% * 2);
+}
+.z-main-contant a dl {
+	width: 100%;
+	height: 100%;
+}
+.z-main-contant a dl dt {
+	width: 100%;
+	height: 6.33rem;
+}
+.z-main-contant a dl dt img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.z-main-contant a dl dd {
+	width: 100%;
+	height: 1.33rem;
+	line-height: 1.33rem;
+	text-align: center;
+	font-size: 1.33rem;
+	margin-top: 0.46rem;
+}
+/*九龙湾中心*/
+.z-center-title img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.z-center-main {
+	width: 92%;
+	margin: 0 auto;
+}
+.z-center-main h2 {
+	padding-top: 1.88rem;
+	padding-bottom: 0.708rem;
+	font-size: 1.67rem;
+	line-height: 1.67rem;
+	font-family: "fangzheng";
+	border-bottom: 2px solid #62646a;
+}
+.z-center-main h2 em {
+	font-size: 0.83rem;
+	margin-top: 0.84rem;
+	margin-left: 2%;
+	color: #6b6e74;
+}
+.z-center-message {
+	width: 100%;
+	color: #5e4c40;
+	border-top: 1px solid #898c95;
+	margin-top: 0.08rem;
+	padding-top: 1.17rem;
+	margin-bottom: 1.13rem;
+}
+.z-center-title {
+	position:relative;
+	color: #5e4c40;
+}
+.z-center-title .z-center-title h1 {
+	position: absolute;
+	font-size: 2rem;
+	font-family: "fangzheng";
+	top: 10rem;
+	left: 7.67rem;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.z-center-title .z-center-title em {
+	position: absolute;
+	top: 13.042rem;
+	left: 40%;
+	letter-spacing: 1px;
+	font-size: 1.083rem;
+	line-height: 1.5rem;
+	color: #fff;
+}
+.z-center-message span {
+	display: block;
+	font-size: 0.58rem;
+	margin-bottom: 0.67rem;
+}
+.z-center-message h3 {
+	font-size: 1.21rem;
+	font-family: "fangzheng";
+}
+.z-logo {
+	display: block;
+	width: 46%;
+	height: 3.21em;
+}
+.z-logo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.z-center-main p {
+	width: 100%;
+	font-size: 0.92rem;
+	line-height: 1.5rem;
+	margin-top: 0.96rem;
+	margin-bottom: 0.96rem;
+	color: #5a5d66;
+}
+.z-center-img {
+	display: block;
+	width: 100%;
+	height: 10.33rem;
+}
+.z-center-big-img {
+	display: block;
+	width: 100%;
+	height: 19.42rem;
+}
+.z-center-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.z-center-big-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.swiper {
+	width: 100%;
+	padding-bottom: 2.87rem;
+	background: url('../images/z-back.jpg');
+}
+/*280*/
+.z-center-main h4 {
+	font-size: 1rem;
+	color: #515153;
+	line-height: 1rem;
+	margin-top: 1.25rem;
+}
+.z-mile-p {
+	margin-bottom: 2.08rem;
+}
+.z-mile-center span, .z-supporting-center span, .commercial-block-top-lhai span, .tupian span {
+	position: absolute;
+	display:block;
+	width: 10%;
+	height:2rem;
+	color: #fff;
+	left: 50%;
+	bottom: 4rem;
+	margin-left: -5%;
+	background:url("../images/z-next.png") center center no-repeat;
+	background-size: contain;
+	-webkit-animation: myfirst 1s alternate infinite;
+	-moz-animation: myfirst 1s alternate infinite;
+	-ms-animation: myfirst 1s alternate infinite;
+	-o-animation: myfirst 1s alternate infinite;
+	animation: myfirst 1s alternate infinite;
+}
+@keyframes myfirst
+{
+from {-webkit-transform:rotateY(0deg);}
+to {-webkit-transform:rotateY(180deg);}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {-webkit-transform:rotateY(0deg);}
+to {-webkit-transform:rotateY(180deg);}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+from {-webkit-transform:rotateY(0deg);}
+to {-webkit-transform:rotateY(180deg);}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {-webkit-transform:rotateY(0deg);}
+to {-webkit-transform:rotateY(180deg);}
+}
+.z-mile-bot {
+	margin-bottom: 3.67rem;
+}
+.z-mile-main .z-mile-tro {
+	margin-top: 0;
+	color: #41454c;
+}
+.z-center-main {
+	width: 92%;
+	margin: 0 auto;
+}
+.z-mile-main h2 {
+	padding-top: 1.88rem;
+	padding-bottom: 0.75rem;
+	font-size: 1.67rem;
+	line-height: 1.67rem;
+	font-family: "fangzheng";
+	border-bottom: 2px solid #62646a;
+}
+.z-mile-main h2 em {
+	font-size: 0.83rem;
+	margin-top: 0.84rem;
+	margin-left: 2%;
+	color: #6b6e74;
+}
+.z-mile-main {
+	width: 92%;
+	margin: 0 auto;
+}
+.z-mile-message {
+	width: 100%;
+	color: #5e4c40;
+	border-top: 1px solid #898c95;
+	margin-top: 0.09rem;
+	padding-top: 1.17rem;
+}
+.z-mile-message span {
+	display: block;
+	font-size: 0.58rem;
+	margin-bottom: 0.67rem;
+}
+.z-mile-message h3 {
+	font-size: 1.21rem;
+	letter-spacing: 3px;
+	font-family: "fangzheng";
+}
+.z-center-main .z-center-img {
+	margin-top: 1.42rem;
+}
+.partition {
+	width: 100%; 
+}
+.z-mile-main .partition {
+	margin-top: 1.67rem;
+	font-size: 0.92rem;
+}
+.z-mile-main .partition ul li span {
+	float:left;
+	width: 34%;
+}
+.z-mile-main .partition ul li strong {
+	float:left;
+	width: 66%;
+}
+.z-mile-main .partition ul li {
+	line-height: 1.92rem;
+	font-size: 0.90rem;
+}
+.z-center-main .z-mile-message span {
+	display: block;
+	font-size: 0.58rem;
+	margin-bottom: 0;
+}
+.z-mile-main .partition ul {
+	padding-bottom: 1.92rem;
+	border-bottom: 1px dotted #a7a8aa;
+}
+.z-mile-message-true {
+	width: 100%;
+	color: #5e4c40;
+	margin-top: 0.08rem;
+	padding-top: 1.17rem;
+	margin-bottom: 0.6633rem;
+}
+.z-mile-message-true span {
+	display: block;
+	font-size: 0.58rem;
+	margin-bottom: 0.67rem;
+}
+.z-mile-message-true h3 {
+	letter-spacing: 3px;
+	font-size: 1.21rem;
+	font-family: "fangzheng";
+}
+.z-mile-main .partition ul li strong p em {
+	float:left;
+	width: 20%;
+}
+.z-mile-main .partition ul li strong p span {
+	float:left;
+	width: 80%;
+}
+/*返回顶部*/
+.top {
+	position: fixed;
+	width: 0;
+	height: 3.33rem;
+	color: #fff;
+	background: rgba(185, 197, 219, 0.6);
+	right:0;
+	font-size: 2rem;
+	text-align: center;
+	line-height: 3.33rem;
+	bottom: 2rem;
+}
+/*联系我们*/
+.z-call {
+	width: 100%;
+	height: 100%;
+	background: url("../images/z-back.jpg") 0 0 no-repeat;
+}
+.z-call-title {
+	width: 100%;
+	height: 15.38rem;
+}
+.z-call-title img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.z-tel-logo {
+	display: block;
+	height: 4.67rem;
+	margin-top: 0.08rem;
+	border-top: 1px solid #898c95;
+	padding-left: 12%;
+	background: url("../images/cell-us.png") 0 bottom no-repeat;
+	background-size: 76% 3.04rem;
+}
+.z-message {
+	margin-top: 1.25rem;
+	line-height: 1.21rem;
+	font-size: 1rem;
+}
+.z-message li span {
+	float:left;
+	width: 28%;
+	line-height: 1rem;
+	text-align: right;
+}
+.z-message li + li {
+	margin-top: 1.2rem;
+}
+.z-message li em {
+	float:left;
+	width: 53%;
+}
+.z-message li:nth-child(1) span {
+	background: url("../images/z-small-logo_02.png") 0 0 no-repeat;
+	background-size: 12%;
+}
+.z-message li:nth-child(2) span {
+	background: url("../images/z-small-logo_05.png") 0 0 no-repeat;
+	background-size: 17%;
+}
+.z-message li:nth-child(3) span {
+	background: url("../images/z-small-logo_07.png") 0 0 no-repeat;
+	background-size: 17%;
+}
+/*五星级酒店*/
+.z-hotel .z-mile-center, .z-hotel .z-mile-center h1 {
+	color: #fff;
+}
+.z-hotel .z-mile-center em {
+	font-family: "Sin Sun";
+	top:31%;
+	left:11%;
+	font-size: 1.08rem;
+	letter-spacing: 1px;;
+}
+.z-hotel  h3 {
+	font-size: 0.83rem;
+	margin-top: 0.83rem;
+} 
+/*醇熟配套*/
+.z-supporting .z-supporting-center h1 {
+	position:absolute;
+	right:7%;
+	top: 9.17rem;
+	font-family: "fangzheng";
+	font-size: 2rem;
+	color: #fff;
+}
+.z-supporting-center img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.z-supporting .z-supporting-center em {
+	position:absolute;
+	right:7%;
+	top: 12.08rem;
+	font-family: "fangzheng";
+	font-size: 1.08rem;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.z-mile-p em {
+	display:block;
+	margin-top: 0.62rem;
+}
+.z-supporting-center {
+	position: relative;
+}
+/*商业街区*/
+.commercial-block-top-lhai {
+	position: relative;
+	#fff;
+}
+.commercial-block-top-lhai img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.commercial-block-top-lhai h1 {
+	position: absolute;
+	font-size: 2rem;
+	font-family: "fangzheng";
+	top: 9.58rem;
+	left: 9%;
+	color:#fff;
+}
+.commercial-block-top-lhai em {
+	position: absolute;
+	top: 12.5rem;
+	left: 9%;
+	color:#fff;
+	font-size: 0.92rem;
+	line-height: 1.5rem;
+}
+/*商业街区*/
+
+* input {
+    outline: none;
+    border: none;
+}
+* textarea {
+    outline: none;
+    resize:none;
+}
+* input::-ms-clear, *input::-ms-reveal {
+    display: none;
+}
+.commercial-block-top-lhai {
+    position: relative;
+    width: 100%;
+    height: 47.33rem;
+}
+.block-top-img-lhai {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.block-top-img-lhai img {
+    display: block;
+    width: 100%;
+    height: 47.33rem;
+}
+/*商业定位*/
+.location-subhead-lhai {
+    margin-bottom: 0.71rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #b2b2b2;
+    color: #5e4c40;
+    font-size: 1.13rem;
+}
+.location-subhead-eng-lhai {
+    margin-bottom: 1rem;
+    color: #5e4c40;
+    font-size: 0.75rem;
+}
+.business-location-img-lhai {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.33rem;
+}
+.business-location-img-lhai img {
+    display: block;
+    width: 100%;
+    height: 10.33rem;
+}
+.business-location-contentlhai {
+    text-align: justify;
+    font-size: 0.92rem;
+    line-height: 1.5rem;
+}
+
+/*街区美景*/
+.block-beauty-lhai {
+    width: 92.19%;
+    padding: 0 3.91%;
+    padding-top: 2.21rem;
+    border-top: 1px solid #898c95;
+    margin-top: 0.08rem;
+}
+.swiper-container-lhai {
+    position: relative;
+    width: 100%;
+    height: 18.25rem;
+}
+.block-view-lhai {
+    display: block;
+    width: 100%;
+}
+.block-view-lhai img {
+    display: block;
+    width: 100%;
+    height: 12.46rem;
+}
+.block-enjoy-lhai {
+    width: 100%;
+    position: absolute;
+    top: 13.54rem;
+    color: #2c2d30;
+    font-size: 0.92rem;
+    text-align: center;
+}
+.specil-pagination-lhai span {
+    display: inline-block;
+    width: 1.08rem;
+    height: 1.08rem;
+}
+/*招商合作*/
+.cooperation-lhai {
+    width: 92.19%;
+    height: 40rem;
+    padding: 0 3.91%;
+    margin-top: 2.21rem;
+}
+.cooperation-lhai form {
+    width: 100%;
+}
+.name-lhai, .phone-lhai {
+    float: left;
+    width: 50%;
+}
+.phone-lhai {
+    float: right;
+}
+.name-lhai p, .phone-lhai p {
+    float: left;
+    width: 31.53%;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.58rem;
+    font-size: 0.92rem;
+}
+.name-lhai input, .phone-lhai input {
+    width: 60%;
+    height: 1.58rem;
+    margin-left: 4.07%;
+    margin-bottom: 0;
+    border: 1px solid #bebfc2;
+}
+.email-lhai {
+    float: left;
+    width: 100%;
+    margin-top: 0.96rem;
+}
+.email-lhai p {
+    float: left;
+    width: 17%;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.58rem;
+    font-size: 0.92rem;
+}
+.email-lhai input {
+    float: left;
+    width: 80%;
+    height: 1.58rem;
+    padding-left: 1%;
+    border: 1px solid #bebfc2;
+}
+.message-lhai {
+    float: left;
+    width: 100%;
+    margin-top: 0.96rem;
+    font-size: 1.5rem;
+}
+.message-lhai p {
+    float: left;
+    width: 17%;
+    margin-top: 0;
+    font-size: 0.92rem;
+}
+.message-lhai textarea {
+    overflow: hidden;
+    float: left;
+    width: 80%;
+    height: 8.54rem;
+    padding:2px;
+    border: 1px solid #bebfc2;
+}
+.submit-lhai {
+    float: left;
+    width: 19.06%;
+    height: 1.83rem;
+    margin-top: 1.42rem;
+    margin-left: 17%;
+    background: #3e5287;
+    text-align: center;
+    line-height: 1.83rem;
+    color: #d8dce7;
+    overflow: hidden;
+}
+.jianyi {
+    margin-top: 1.04rem;
+}
+/*精英团队*/
+.lg-wrap {
+    width:100%;
+    height:100%;
+}
+.tupian h1 {
+	color: #fff;
+}
+.lg-main {
+    width:92%;
+    height:5.25rem;
+    float: left;
+    position: relative;
+    margin: 0 3% ;
+    border-bottom: 1px solid #9699a0;
+}
+.lg-main h2 {
+    font-size: 1.67rem;
+    color:black;
+    line-height: 6.5rem;
+    font-family: "fangzheng";
+}
+.lg-main h2 span {
+    font-size: 1.08rem;
+    font-weight: bolder;
+    line-height: 6.5rem;
+    color: #6b6e74;
+}
+.lg-main em {
+    position: absolute;
+    width:100%;
+    height:2px;
+    background:#9699a0;
+    bottom:0.2rem;
+}
+.lg-wrap h3 {
+    float: left;
+    font-size: 0.92rem;
+    color:black;
+    line-height: 3.75rem;
+    text-indent: 3%;
+}
+.lg-wrap p {
+    width:92%;
+    float: left;
+    margin-left: 3%;
+    font-size: 0.75rem;
+    color:black;
+    line-height: 1.6rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed #9699a0;
+}
+.lg-footer {
+    width:92%;
+    height:5rem;
+    float: left;
+    margin-left: 3%;
+}
+.lg-footer h2 {
+    font-size: 1.25rem;
+    color:#5e4c40;
+    font-family: "fangzheng";
+    float: left;
+    margin-top: 1.13rem;
+}
+.lg-footer h4{
+    float: left;
+    font-size: 0.83rem;
+    line-height: 1.5rem;
+    color:#5e4c40;
+    font-family: "fangzheng";
+}
+.lg-cetcle {
+    float:left;
+    width:92%;
+    margin-left: 3%;
+}
+.lg-cetcle span{
+    float: left;
+    margin-top: 1rem;
+    font-size: 0.92rem;
+    line-height: 1.7rem;
+    color:black;
+}
+.lg-wrap .tupian {
+	position: relative;
+	color: #5e4c40;
+}
+.lg-wrap .tupian h1 {
+	position: absolute;
+	font-size: 2rem;
+	font-family: "fangzheng";
+	top: 66.9%;
+	right: 0.938%;
+}
+.lg-wrap .tupian em {
+	position: absolute;
+	top: 73.15%;
+	right: 0.938%;
+	font-size: 0.92rem;
+	line-height: 1.5rem;
+	color: #fff;
+}
+/**/
+.swiper-pagination span {
+    border: 2px solid #fff;
+    opacity: 1;
+    background: #d5dce9;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: #eae2d3 ;
+    border: 1px solid #eae2d3;
+}
+.home-tro {
+    margin-top: 1.17rem;
+}
+/*户型品鉴大图滚动*/
+.swiper-container-lhais {
+    position: relative;
+    width: 100%;
+    height: 27.5rem;
+}
+.swiper-container-lhais .block-view-lhai img {
+    display: block;
+    width: 100%;
+    height: 24.58rem;
+}
